@@ -1,0 +1,82 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+.listDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+  
+h1 {
+    display: inline-block; 
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    vertical-align: middle; 
+}
+
+#input{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#input:focus {
+    outline: none;
+    border-color: #0066cc;
+  }
+  
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease-in-out;
+}
+button:hover{
+    color: white;
+    background-color: #ccc;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+hr{
+    width: 300px;
+    height: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ccc;
+}
+
+ul{
+    padding: 0px;
+}
+
+.deleteImg:hover{
+    src: url(delete1.png);
+}
